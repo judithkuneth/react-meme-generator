@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Link from './Link';
 import UserInput from './UserInput';
+import Gallery from './Gallery';
+import Axios from './Axios';
 
 function App() {
   const [inputFirstLine, setInputFirstLine] = useState();
@@ -26,6 +28,7 @@ function App() {
         inputSecondLine={inputSecondLine}
         memeType={memeType}
       />
+      <Gallery />
     </div>
   );
 }
