@@ -4,11 +4,11 @@ import afraid from './Images/memes/1.jpg';
 import apcr from './Images/memes/2.jpg';
 import older from './Images/memes/3.jpg';
 
-export default function Gallery() {
+export default function Gallery(props) {
   return (
     <>
       <h1>Gallery</h1>
-      <p>0. tenguy</p>
+      <p>1 tenguy</p>
       <img src={tenguy} alt="" width="200" height="200"></img>
       <p>1. afraid</p>
       <img src={afraid} alt="" width="200" height="200"></img>
